@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(90deg, #131E26 60%, #223947, #325A6F);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.logo img {
+    font-size: 1.0rem;
+    width: 200px;
+    margin: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao {
+    background: linear-gradient(90deg, #349054, #57c3f0);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 30px  ;
+    width: 190px;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+
+}
+
+.botao img{
+    margin: 10px;
+    height: 20px;
+}
+
+.fundo2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    min-height: 80vh;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.seta {
+    display: flex;
+    align-items: center;
+}
+
+.seta img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.fundo img {
+    max-width: 100%;
+    height: 500px;
+}
+
+
+
+.carrosel {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+.carrosel h1 {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 20px;
+    color: black;
+}
+
+.CardAll {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 30px;
+    
+}
+
+.card img {
+    width:100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    color: black;
+}
+
+.card p {
+    font-size: 1.0rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #394a6d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
